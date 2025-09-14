@@ -7,3 +7,8 @@ Quick start:
 - UAT: follow the checklist in `testing/uat/README.md` and leverage Playwright for automation.
 
 Files added here are examples and starting points; adapt them to the full SRS and CI pipeline.
+
+Source code repository
+----------------------
+
+Backend repository: https://github.com/vanle629/vanlnt_mockproject_backend_server.git
