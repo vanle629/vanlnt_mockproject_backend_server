@@ -1,0 +1,15 @@
+config:
+  target: "http://localhost:8000"
+  phases:
+    - duration: 30
+      arrivalRate: 5
+scenarios:
+  - name: Checkout load
+    flow:
+      - post:
+          url: "/api/v1/checkout/session"
+          json:
+            items:
+              - sku: "p1-s1"
+                quantity: 1
+                price: 10
